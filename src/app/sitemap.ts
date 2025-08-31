@@ -14,6 +14,7 @@ function getBaseUrl(): string {
     if (host) return `${proto}://${host}`.replace(/\/+$/, '');
   } catch {
     // เผื่อถูกเรียกตอน build: fallback เป็นโดเมนบน Vercel
+    // เผื่อถูกเรียกตอน build: fallback เป็นโดเมนบน Vercel
   }
   return 'https://sofaclean-pro-v2.vercel.app';
 }
