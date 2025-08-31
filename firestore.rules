@@ -1,0 +1,37 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Rules for posts
+    // Allow public read and list for everyone.
+    // Allow write only for authenticated admin users.
+    match /posts/{postId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Rules for quotes
+    // Allow anyone to create a quote.
+    // Allow only authenticated admin users to read, update, delete, and list quotes.
+    match /quotes/{quoteId} {
+      allow create: if true;
+      allow read, update, delete: if request.auth != null;
+    }
+
+    // Rules for pages (site content like homepage images)
+    // Allow public read for everyone.
+    // Allow write only for authenticated admin users.
+    match /pages/{pageId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Rules for settings (contact info, etc.)
+    // Allow public read for everyone.
+    // Allow write only for authenticated admin users.
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}

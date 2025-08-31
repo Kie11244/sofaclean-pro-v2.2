@@ -1,0 +1,147 @@
+
+{
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "contact": "Contact Us",
+      "links": [
+        { "href": "/", "label": "Home" },
+        { "href": "/#services", "label": "Pricing & Services" },
+        { "href": "/blog", "label": "Blog" },
+        { "href": "/#faq", "label": "FAQ" }
+      ]
+    },
+    "floatingContact": {
+        "open": "Open contact options",
+        "close": "Close contact options"
+    },
+    "hero": {
+      "title": "Sofa, Curtain & Car Seat Cleaning Service",
+      "subtitle": "Restore your sofa, curtains, and car seats with our professional on-site cleaning service. We eliminate deep-seated stains, dust mites, and unpleasant odors.",
+      "cta": "View Prices & Services"
+    },
+    "whyUs": {
+      "title": "Why Choose SofaClean Pro?",
+      "cards": [
+        {
+          "icon": "Sparkles",
+          "title": "Deep Cleaning Power",
+          "description": "We use specialized equipment for sofas, curtains, and carpets to thoroughly remove stubborn stains and hidden dust mites."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Safe, Residue-Free",
+          "description": "Our imported cleaning solutions are eco-friendly and safe for children and pets, leaving no harmful residues."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Convenient On-site Service",
+          "description": "No need to move your furniture. Our team provides cleaning services at your home, condo, or office in Bangkok and its vicinity."
+        }
+      ]
+    },
+    "whyUsData": [
+        {
+            "icon": "Sparkles",
+            "title": "Deep Cleaning Power",
+            "description": "We use specialized equipment for sofas, curtains, and carpets to thoroughly remove stubborn stains and hidden dust mites."
+        },
+        {
+            "icon": "ShieldCheck",
+            "title": "Safe, Residue-Free",
+            "description": "Our imported cleaning solutions are eco-friendly and safe for children and pets, leaving no harmful residues."
+        },
+        {
+            "icon": "MapPin",
+            "title": "Convenient On-site Service",
+            "description": "No need to move your furniture. Our team provides cleaning services at your home, condo, or office in Bangkok and its vicinity."
+        }
+    ],
+    "beforeAfter": {
+      "title": "Our Cleaning Results",
+      "before": {
+        "label": "Before",
+        "desc": "Sofa with accumulated dust and stains.",
+        "alt": "Before picture of a dirty white sofa with stains."
+      },
+      "after": {
+        "label": "After",
+        "desc": "Sofa is clean, vibrant, and looks like new.",
+        "alt": "After picture of a clean, like-new white sofa."
+      }
+    },
+    "blog": {
+      "title": "Articles & Home Care Tips",
+      "readMore": "Read More...",
+      "viewAll": "View All Articles"
+    },
+    "priceTable": {
+      "title": "Our Service Rates",
+      "popular": "Popular",
+      "pricePrefix": "Starting from",
+      "cta": "Request a Quote",
+      "car": {
+        "title": "Car Seat Cleaning",
+        "subtitle": "All types (Fabric/Leather)",
+        "features": ["Sedan, ECO Car", "SUV, Pickup Truck", "Stain and odor removal"]
+      },
+      "sofa": {
+        "title": "Sofa Cleaning",
+        "subtitle": "All sizes (Fabric/Leather)",
+        "features": ["2-3 Seater Sofa", "L-Shape Sofa", "Dust mite and germ elimination"]
+      },
+      "other": {
+        "title": "Other Services",
+        "subtitle": "Comprehensive cleaning solutions",
+        "pricePrefix": "Contact for a quote",
+        "price": "Special Price",
+        "features": ["Carpet Cleaning", "Mattress Cleaning", "Full Interior Car Detailing"]
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions"
+    },
+    "faqData": [
+        {
+            "question": "How long does it take to clean a sofa or curtains?",
+            "answer": "Generally, cleaning a 2-3 seater sofa or 1-2 sets of curtains takes about 1-2 hours, depending on the fabric type and the severity of stains."
+        },
+        {
+            "question": "How long does it take to dry after cleaning?",
+            "answer": "Your sofa or curtains will be dry and ready to use within 3-4 hours after cleaning. We recommend using a fan or air conditioner to speed up the drying process."
+        },
+        {
+            "question": "Are the cleaning solutions safe for children and pets?",
+            "answer": "Absolutely. We use high-quality, nature-derived cleaning products that are free from harmful chemicals, ensuring safety for your entire family and pets."
+        }
+    ],
+    "booking": {
+      "title": "Interested in Our Cleaning Services?",
+      "description": "Contact us for a free on-site price estimate for your home or condo! Or send us photos for a preliminary quote. The SofaClean Pro team is ready to serve you.",
+      "cta": "Call Now: 081-234-5678"
+    },
+    "footer": {
+      "tagline": "Experts in Sofa, Curtain, Car Seat, Carpet, and Mattress Cleaning Services."
+    },
+    "blogIndex": {
+        "title": "All Articles | SofaClean Pro",
+        "description": "A collection of articles, tips, and knowledge on how to care for your sofa, car seats, and carpets from the SofaClean Pro team.",
+        "header": "Articles & Tips",
+        "subheader": "Stay updated with knowledge and techniques to keep your fabric furniture clean and like-new right here."
+    },
+    "blogPost": {
+        "back": "Back to Blog",
+        "publishedOn": "Published on",
+        "cta": {
+            "title": "Need an Expert?",
+            "description": "If you find the stains are too tough or you need a deep clean to eliminate germs and dust mites, calling for",
+            "link": "professional cleaning services",
+            "end": "is your best option!"
+        },
+        "related": {
+            "title": "Related Articles"
+        }
+    }
+}
